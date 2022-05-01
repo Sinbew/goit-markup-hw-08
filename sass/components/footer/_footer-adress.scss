@@ -1,0 +1,41 @@
+.adress__item {
+  display: block;
+  margin-bottom: 9px;
+}
+
+.adress__link {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+
+  color: var(--main-white);
+
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    color: var(--main-blue);
+  }
+}
+
+.adress__mail,
+.adress__tel {
+  margin-bottom: 9px;
+
+  font-style: normal;
+  font-size: 14px;
+
+  color: var(--footer-grey);
+
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &__mail:hover,
+  &__tel:hover {
+    color: var(--main-blue);
+  }
+
+  &__mail:focus,
+  &__tel:focus {
+    color: var(--main-blue);
+  }
+}

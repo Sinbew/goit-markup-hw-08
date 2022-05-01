@@ -1,0 +1,14 @@
+.footer {
+  padding: 60px 0;
+
+  background-color: #2f303a;
+
+  &__container {
+    display: flex;
+    align-items: baseline;
+  }
+
+  &__adress-group {
+    margin-right: 70px;
+  }
+}
