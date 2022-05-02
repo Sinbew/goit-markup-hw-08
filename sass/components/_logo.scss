@@ -1,23 +1,24 @@
 .logo {
-  font-size: 26px;
   font-weight: 700;
-  font-family: var(--font-secondary);
-  line-height: 1.19;
+  font-size: 24px;
+  line-height: 1.16;
   letter-spacing: 0.03em;
+  font-family: var(--font-secondary);
 
-  &__blue {
-    color: var(--main-blue);
-  }
-  &__black {
-    color: var(--main-black);
-  }
-  &__white {
-    color: var(--main-white);
+  @media screen and(min-width:1200px) {
+    font-size: 26px;
+    line-height: 1.19;
   }
 }
 
-.footer__logo {
-  display: inline-block;
+.logo__blue {
+  color: var(--main-blue);
+}
 
-  margin-bottom: 20px;
+.logo__black {
+  color: var(--main-black);
+}
+
+.logo__white {
+  color: var(--main-white);
 }
