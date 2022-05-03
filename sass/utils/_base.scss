@@ -2,6 +2,10 @@ body {
   font-family: var(--font-main);
   color: var(--main-black);
   letter-spacing: 0.03em;
+
+  &.no-scroll {
+    overflow: hidden;
+  }
 }
 
 .section {

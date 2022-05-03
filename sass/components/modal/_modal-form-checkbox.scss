@@ -10,9 +10,14 @@
   margin-bottom: 30px;
 
   font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71;
+  font-size: 12px;
+  line-height: 1.16;
   letter-spacing: 0.03em;
+
+  @media screen and(min-width:1200px) {
+    font-size: 14px;
+    line-height: 1.71;
+  }
 }
 
 .form-group__checkbox .form-group__policy-link {
@@ -36,7 +41,7 @@
   align-items: center;
   justify-content: center;
 
-  margin-right: 7px;
+  margin-right: 8px;
   width: 16px;
   height: 15px;
 
