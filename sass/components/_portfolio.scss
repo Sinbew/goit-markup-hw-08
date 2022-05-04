@@ -90,6 +90,10 @@
 }
 
 .portfolio-list__description {
+  @media screen and(max-width:400px) {
+    font-size: 15px;
+    padding: 45px 24px;
+  }
   position: absolute;
   bottom: 0;
   left: 0;
