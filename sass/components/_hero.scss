@@ -56,6 +56,8 @@
   margin-right: auto;
   margin-left: auto;
 
+  max-width: 360px;
+
   font-weight: 900;
   font-size: 26px;
   line-height: 1.62;
@@ -64,18 +66,13 @@
 
   color: var(--main-white);
 
-  @media screen and(min-width:768px) {
-    width: 360px;
-  }
+  // @media screen and(min-width:768px) {
+  // }
 
   @media screen and(min-width:1200px) {
-    width: 696px;
-
-    font-weight: 900;
+    max-width: 696px;
     font-size: 44px;
     line-height: 1.36;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
   }
 }
 
