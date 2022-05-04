@@ -55,7 +55,6 @@
 
   @media screen and(min-width:768px) {
     justify-content: flex-start;
-
     margin-top: 30px;
     --item: 2;
   }
@@ -68,6 +67,7 @@
 
 .portfolio-list__item {
   display: flex;
+
   background-color: var(--main-white);
 }
 
