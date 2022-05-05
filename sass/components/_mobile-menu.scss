@@ -43,6 +43,11 @@
   letter-spacing: 0.02em;
 
   color: #212121;
+  transition: font-size 450ms ease;
+
+  @media screen and(max-width:479px) {
+    font-size: 34px;
+  }
 }
 .mobile-menu__link.current-link {
   color: #2196f3;
@@ -66,6 +71,8 @@
   letter-spacing: 0.02em;
 
   color: #757575;
+
+  transition: font-size 450ms ease;
 }
 
 .mobile-menu__contact-phone {
@@ -83,13 +90,17 @@
 
 .mobile-menu__social {
   display: flex;
-
+  transition: margin-right 450ms ease;
   @media screen and(max-width:479px) {
     margin-bottom: 10px;
   }
 
   &:not(:last-child) {
     margin-right: 10px;
+
+    @media screen and(max-width:479px) {
+      margin-right: 5px;
+    }
   }
 }
 
@@ -102,6 +113,11 @@
   height: 100%;
 
   background-color: rgba(33, 33, 33, 0.2);
+  transition: margin-left 450ms ease;
+
+  @media screen and(max-width:479px) {
+    margin-left: 5px;
+  }
 }
 
 .mobile-menu__social-link {
@@ -111,4 +127,8 @@
   letter-spacing: 0.02em;
 
   color: #2196f3;
+  transition: font-size 450ms ease;
+  @media screen and(max-width:479px) {
+    font-size: 12px;
+  }
 }

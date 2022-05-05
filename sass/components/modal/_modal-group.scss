@@ -46,7 +46,10 @@
     fill: var(--main-blue);
   }
 }
-
-// .modal-group__close-icon {
-//   fill: red;
-// }
+.modal-group__close-object {
+  padding-top: 5px;
+}
+.modal-group__close-icon {
+  fill: inherit;
+  stroke: inherit;
+}
