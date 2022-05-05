@@ -455,11 +455,6 @@ body.no-scroll {
   padding-top: 5px;
 }
 
-.modal-group__close-icon {
-  fill: inherit;
-  stroke: inherit;
-}
-
 .form {
   display: flex;
   flex-direction: column;
