@@ -435,8 +435,8 @@ body.no-scroll {
   position: absolute;
   top: 8px;
   right: 8px;
-  width: 33px;
-  height: 33px;
+  width: 30px;
+  height: 30px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -659,6 +659,12 @@ body.no-scroll {
   }
 }
 
+@media screen and (max-width: 767px) {
+  .features-list__item:not(:last-child) {
+    margin-bottom: 30px;
+  }
+}
+
 .features-list__background {
   display: flex;
   align-items: center;
@@ -684,10 +690,6 @@ body.no-scroll {
   .features-list__title {
     text-align: left;
   }
-}
-
-.features-list__item:not(:last-child) {
-  margin-bottom: 30px;
 }
 
 .features-list__text {
